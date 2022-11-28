@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-28T21:06:43 GMT" name="RestFull" finished-at="2022-11-28T21:06:48 GMT" duration-ms="5427">
+    <groups>
+    </groups>
+    <test started-at="2022-11-28T21:06:43 GMT" name="CreateBooking" finished-at="2022-11-28T21:06:46 GMT" duration-ms="3590">
+      <class name="com.restfuldemo.automation.CreateBooking">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restfuldemo.automation.CreateBooking@4659191b]" started-at="2022-11-28T21:06:43 GMT" name="createBooking" data-provider="testdata" finished-at="2022-11-28T21:06:45 GMT" duration-ms="1968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-Jan-2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01-Jan-2019]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[lunch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restfuldemo.automation.CreateBooking@4659191b]" started-at="2022-11-28T21:06:45 GMT" name="createBooking" data-provider="testdata" finished-at="2022-11-28T21:06:46 GMT" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jim1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cat2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-Jan-2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01-Jan-2019]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restfuldemo.automation.CreateBooking@4659191b]" started-at="2022-11-28T21:06:46 GMT" name="createBooking" data-provider="testdata" finished-at="2022-11-28T21:06:46 GMT" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jim3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cat3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[01-Jan-2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01-Jan-2019]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[dinner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- com.restfuldemo.automation.CreateBooking -->
+    </test> <!-- CreateBooking -->
+    <test started-at="2022-11-28T21:06:46 GMT" name="CreateToken" finished-at="2022-11-28T21:06:47 GMT" duration-ms="597">
+      <class name="com.restfuldemo.automation.CreateToken">
+        <test-method signature="createToken()[pri:0, instance:com.restfuldemo.automation.CreateToken@543295b0]" started-at="2022-11-28T21:06:46 GMT" name="createToken" finished-at="2022-11-28T21:06:47 GMT" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+      </class> <!-- com.restfuldemo.automation.CreateToken -->
+    </test> <!-- CreateToken -->
+    <test started-at="2022-11-28T21:06:47 GMT" name="UpdateBooking" finished-at="2022-11-28T21:06:48 GMT" duration-ms="604">
+      <class name="com.restfuldemo.automation.UpdateBooking">
+        <test-method signature="updateBooking(java.lang.String)[pri:0, instance:com.restfuldemo.automation.UpdateBooking@75d3a5e0]" started-at="2022-11-28T21:06:47 GMT" name="updateBooking" finished-at="2022-11-28T21:06:48 GMT" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+      </class> <!-- com.restfuldemo.automation.UpdateBooking -->
+    </test> <!-- UpdateBooking -->
+    <test started-at="2022-11-28T21:06:48 GMT" name="PartialUpdate" finished-at="2022-11-28T21:06:48 GMT" duration-ms="599">
+      <class name="com.restfuldemo.automation.PartialUpdate">
+        <test-method signature="partialUpdate(java.lang.String)[pri:0, instance:com.restfuldemo.automation.PartialUpdate@795509d9]" started-at="2022-11-28T21:06:48 GMT" name="partialUpdate" finished-at="2022-11-28T21:06:48 GMT" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdate -->
+      </class> <!-- com.restfuldemo.automation.PartialUpdate -->
+    </test> <!-- PartialUpdate -->
+  </suite> <!-- RestFull -->
+</testng-results>

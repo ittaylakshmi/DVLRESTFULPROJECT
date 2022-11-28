@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RestFull">
+
+	<test thread-count="5" name="CreateBooking">
+		<classes>
+			<class name="com.restfuldemo.automation.CreateBooking" />
+		</classes>
+	</test>
+	<test thread-count="5" name="GetBooking" enabled="false">
+	<parameter name="url" value="https://restful-booker.herokuapp.com/booking/"></parameter>
+		<classes>
+			<class name="com.restfuldemo.automation.GetBooking" />
+		</classes>
+	</test>
+	<test thread-count="5" name="CreateToken">
+		<classes>
+			<class name="com.restfuldemo.automation.CreateToken" />
+		</classes>
+	</test>
+	<test thread-count="5" name="UpdateBooking">
+	<parameter name="url" value="https://restful-booker.herokuapp.com/booking/"></parameter>
+		<classes>
+			<class name="com.restfuldemo.automation.UpdateBooking" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="PartialUpdate">
+	<parameter name="url" value="https://restful-booker.herokuapp.com/booking/"></parameter>
+		<classes>
+			<class name="com.restfuldemo.automation.PartialUpdate" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

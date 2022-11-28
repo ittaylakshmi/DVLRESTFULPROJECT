@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestFull]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PartialUpdate(failed)">
+    <parameter name="url" value="https://restful-booker.herokuapp.com/booking/"/>
+    <classes>
+      <class name="com.restfuldemo.automation.PartialUpdate">
+        <methods>
+          <include name="partialUpdate"/>
+        </methods>
+      </class> <!-- com.restfuldemo.automation.PartialUpdate -->
+    </classes>
+  </test> <!-- PartialUpdate(failed) -->
+</suite> <!-- Failed suite [RestFull] -->
