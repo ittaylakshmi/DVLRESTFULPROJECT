@@ -11,7 +11,7 @@ import com.restfuldemo.automation.dataprovider.GetTestData;
 import io.restassured.path.json.JsonPath;
 
 public class CreateBooking {
-	
+	//this Class will createbooking ID
 	String response;
 	static int bookingid;
 	
